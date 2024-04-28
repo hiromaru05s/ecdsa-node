@@ -8,3 +8,4 @@ console.log('private key', toHex(privateKey));
 const publicKey = secp.secp256k1.getPublicKey(privateKey);
 
 console.log('public Key', toHex(publicKey));
+
